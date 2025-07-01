@@ -12,6 +12,7 @@ import { BarLoader } from "react-spinners";
 import useFetch from "@/hooks/use-fetch";
 import { usernameSchema } from "@/app/lib/validators";
 import { getLatestUpdates } from "@/actions/dashboard";
+import { checkUser } from "@/lib/checkUser";
 import { format } from "date-fns";
 
 export default function DashboardPage() {
@@ -26,10 +27,19 @@ export default function DashboardPage() {
     resolver: zodResolver(usernameSchema),
   });
 
+  const { fn: fnCheckUser } = useFetch(checkUser);
+
   useEffect(() => {
     setValue("username", user?.username);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isLoaded]);
+
+  // Check user when the user is loaded
+  useEffect(() => {
+    if (isLoaded && user) {
+      (async () => await fnCheckUser())();
+    }
+  }, [isLoaded, user]);
 
   const {
     loading: loadingUpdates,

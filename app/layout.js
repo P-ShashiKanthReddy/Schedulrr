@@ -1,10 +1,8 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
-import { currentUser } from "@clerk/nextjs/server";
 import Header from "@/components/header";
 import CreateEventDrawer from "@/components/create-event";
-import { checkUser } from "@/lib/checkUser";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,12 +12,6 @@ export const metadata = {
 };
 
 export default async function RootLayout({ children }) {
-  const user = await currentUser();
-  
-  if (user) {
-    await checkUser();
-  }
-
   return (
     <ClerkProvider>
       <html lang="en">
