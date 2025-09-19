@@ -1,0 +1,108 @@
+# Interview Questions for Software Development Positions
+
+## Technical Questions
+
+### JavaScript/React/Next.js
+1. What is the difference between `useState` and `useEffect` hooks in React?
+2. Explain the concept of server-side rendering (SSR) in Next.js.
+3. What are the benefits of using TypeScript over JavaScript?
+4. How does event delegation work in JavaScript?
+5. What is the difference between `let`, `const`, and `var` in JavaScript?
+6. Explain the concept of closures in JavaScript with an example.
+7. What is the Virtual DOM and how does it work in React?
+8. How do you handle state management in large React applications?
+9. What are React hooks and why were they introduced?
+10. Explain the difference between controlled and uncontrolled components in React.
+
+### Database & Backend
+11. What is the difference between SQL and NoSQL databases?
+12. Explain ACID properties in database transactions.
+13. What is database normalization and why is it important?
+14. How do you prevent SQL injection attacks?
+15. What is the difference between authentication and authorization?
+16. Explain RESTful API design principles.
+17. What is the purpose of database indexing?
+18. How do you handle database migrations in production?
+19. What is the difference between synchronous and asynchronous programming?
+20. Explain the concept of middleware in web applications.
+
+### System Design
+21. How would you design a URL shortening service like bit.ly?
+22. Explain the concept of load balancing and its types.
+23. What is caching and where would you implement it in a web application?
+24. How would you handle high traffic on a web application?
+25. What is the difference between horizontal and vertical scaling?
+26. Explain the concept of microservices architecture.
+27. How would you design a chat application?
+28. What are the trade-offs between different database types?
+29. How would you implement real-time notifications in a web app?
+30. Explain the concept of CDN (Content Delivery Network).
+
+## Behavioral Questions
+
+### Problem Solving
+31. Tell me about a challenging technical problem you solved recently.
+32. How do you approach debugging a complex issue?
+33. Describe a time when you had to learn a new technology quickly.
+34. How do you stay updated with the latest technology trends?
+35. Tell me about a time when you disagreed with a technical decision.
+
+### Teamwork & Communication
+36. How do you handle code reviews?
+37. Describe your experience working in an agile development environment.
+38. How do you communicate technical concepts to non-technical stakeholders?
+39. Tell me about a time when you had to work with a difficult team member.
+40. How do you prioritize tasks when working on multiple projects?
+
+### Leadership & Growth
+41. Tell me about a time when you mentored a junior developer.
+42. How do you handle technical debt in your projects?
+43. Describe a project where you took the initiative to improve something.
+44. How do you ensure code quality in your team?
+45. What's your approach to testing and quality assurance?
+
+## Project-Specific Questions
+
+### For This Scheduling Application
+46. How would you implement real-time calendar synchronization?
+47. What security measures would you implement for user authentication?
+48. How would you handle timezone differences in a global scheduling app?
+49. What would be your approach to handle concurrent booking requests?
+50. How would you implement email notifications for booking confirmations?
+51. What metrics would you track to measure the application's performance?
+52. How would you implement recurring events in the scheduling system?
+53. What would be your strategy for handling peak traffic during popular booking times?
+54. How would you implement role-based access control for different user types?
+55. What would be your approach to data backup and disaster recovery?
+
+## Coding Challenges
+
+### Algorithm Questions
+56. Implement a function to find the longest substring without repeating characters.
+57. Write a function to merge two sorted arrays.
+58. Implement a binary search algorithm.
+59. Write a function to check if a string is a palindrome.
+60. Implement a function to find the intersection of two arrays.
+
+### React/JavaScript Specific
+61. Create a custom hook for handling API calls with loading states.
+62. Implement a debounce function in JavaScript.
+63. Write a React component that handles form validation.
+64. Create a function to deep clone an object in JavaScript.
+65. Implement a simple state management solution using React Context.
+
+## Questions for the Candidate to Ask
+
+### About the Role
+66. What does a typical day look like for this position?
+67. What are the biggest challenges facing the team right now?
+68. How do you measure success in this role?
+69. What opportunities are there for professional development?
+70. What is the team structure and who would I be working with?
+
+### About the Company
+71. What is the company's engineering culture like?
+72. How does the company handle work-life balance?
+73. What technologies is the company planning to adopt in the future?
+74. How does the company support learning and development?
+75. What are the company's plans for growth in the next few years?
